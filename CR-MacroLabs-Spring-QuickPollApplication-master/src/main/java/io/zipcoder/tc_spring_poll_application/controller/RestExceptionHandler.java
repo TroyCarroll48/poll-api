@@ -26,7 +26,7 @@ import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
 
 @ControllerAdvice
-public class RestExceptionHandler extends ResponseEntityExceptionHandler {
+public class RestExceptionHandler  {
 
     @Inject
     private MessageSource messageSource;
